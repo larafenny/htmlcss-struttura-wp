@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    background-color: hsl(300deg 67% 69%);
+    height: 100px;
+}
+
+#yellow-section{
+    background-color: hsl(54deg 63% 68%);
+    height: 300px;
+}
+
+#blue-section{
+    background-color: hsl(203deg 54% 79%);
+    height: 300px;
+}
+
+#footer{
+    background-color: hsl(272deg 99% 50%);
+    height: 100px;
+}
+
+#header-blue-section{
+    background-color: blue;
+    height: 50px;
+}
+
+#left-blue-section{
+    background-color: red;
+    height: 50px;
+}
+
+#central-blue-section{
+    background-color: green;
+    height: 50px;
+}
+
+#right-blue-section{
+    background-color: yellow;
+    height: 50px;
+}
