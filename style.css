@@ -9,7 +9,7 @@ body{
     margin: auto;
     margin-top: 50px;
 }
-#header{
+header{
     background-color: hsl(300deg 67% 69%);
     height: 100px;
 }
@@ -17,40 +17,48 @@ body{
 #yellow-section{
     background-color: hsl(54deg 63% 68%);
     height: 300px;
+    margin-top: 20px;
+
 }
 
 #blue-section{
     background-color: hsl(203deg 54% 79%);
-    height: 500px;
+    height: 600px;
+    border-bottom: 15px solid hsl(207deg 100% 49%);
+
 }
 
 #footer{
     background-color: hsl(272deg 99% 50%);
     height: 100px;
+    margin-top: 20px;
 }
 
 #header-blue-section{
-    background-color: blue;
-    height: 50px;
+    height: 100px;
+    border-bottom: 15px solid hsl(207deg 100% 49%);
+    margin-top: 20px;
+
 }
 
 #left-blue-section{
-    background-color: red;
     height: 500px;
     width: 20%;
     float: left;
+    border-right: 15px solid hsl(207deg 100% 49%);
+
 }
 
 #central-blue-section{
-    background-color: green;
     height: 500px;
     width: 60%;
     float: left;
 }
 
 #right-blue-section{
-    background-color: yellow;
     height: 500px;
     width: 20%;
     float: right;
+    border-left: 15px solid hsl(207deg 100% 49%);
+
 }
